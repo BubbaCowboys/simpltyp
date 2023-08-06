@@ -1,33 +1,12 @@
 var images = [
-  'background100.png',
-  '1807385.jpg',
   'splash.jpg',
-  'splash1.jpg',
-  '84273.jpg',
-  '2435550.png',
-  '785507.png',
-  '1897003.png',
-  '5770509.jpg',
-  '9070075.png',
-  '9070112.png',
-  '9070174.png',
-  '99810.png' ,
-  '178343.jpg',
-  '99825.jpg' ,
-  '99868.jpg',
-  '203514.jpg' ,
-  '203518.jpg',
-  '42277.jpg' ,
-  '21635.jpg' ,
-  '203545.jpg' ,
-  '203551.jpg'
   
 ];
 
 var img = document.getElementById("img");
 
 function imgDisp(num) {
-  var num = Math.floor(Math.random() * 22);
+  var num = Math.floor(Math.random() * 1);
   img.style.backgroundImage = 'url("' + images[num] + '")';
   img.style.backgroundRepeat = "no-repeat";
 }
